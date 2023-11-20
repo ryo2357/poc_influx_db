@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  poc_influxdb_devcontainer:
+    image: mcr.microsoft.com/devcontainers/rust
+    volumes:
+      - ../:/workspace:cached
+    command: sleep infinity
