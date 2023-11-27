@@ -853,7 +853,6 @@ dependencies = [
  "dotenv",
  "futures",
  "influxdb2",
- "influxdb2-derive",
  "influxdb2-structmap",
  "num-traits",
  "rand",
